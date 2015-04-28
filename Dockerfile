@@ -1,5 +1,5 @@
 FROM scratch
-ADD ubuntu-vivid-core-cloudimg-amd64-root.tar.gz /
+ADD https://partner-images.canonical.com/core/vivid/current/ubuntu-vivid-core-cloudimg-amd64-root.tar.gz /
 
 # a few minor docker-specific tweaks
 # see https://github.com/docker/docker/blob/master/contrib/mkimage/debootstrap
